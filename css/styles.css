@@ -1,0 +1,52 @@
+:root {
+  --background: #EDF4F7;
+  --black: #000000;
+  --white: #FFFFFF;
+  --num: #AFC5CF;
+  --page-width: 1920px;
+  --header-height: 200px;
+  --break-md: 1350px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Trump Gothic Pro";
+  src: local("Trump Gothic Pro"),
+    url("/fonts/TrumpGothicPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"),
+    url("/fonts/Gotham_OpenType_Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: local("Gotham Light"),
+    url("/fonts/Gotham_OpenType_Light.otf") format("opentype");
+}
+
+body {
+  background: var(--background);
+  font-family: 'Gotham';
+}
+
+
+.main {
+  padding-top: var(--header-height);
+  max-width: var(--page-width);
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1350px) {
+  .main {
+    --header-height: 100px;
+  }
+}
