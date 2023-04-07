@@ -21,6 +21,12 @@
   padding: 25px 58px 32px 68px;
 }
 
+@media only screen and (max-width: 1350px) {
+  .card {
+    min-height: 0;
+  }
+}
+
 .card__number {
   font-size: 96px;
   color: var(--num);
