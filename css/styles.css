@@ -17,19 +17,19 @@
 @font-face {
   font-family: "Trump Gothic Pro";
   src: local("Trump Gothic Pro"),
-    url("/fonts/TrumpGothicPro-Bold.otf") format("opentype");
+    url("../fonts/TrumpGothicPro-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Gotham";
   src: local("Gotham"),
-    url("/fonts/Gotham_OpenType_Medium.otf") format("opentype");
+    url("../fonts/Gotham_OpenType_Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Gotham Light";
   src: local("Gotham Light"),
-    url("/fonts/Gotham_OpenType_Light.otf") format("opentype");
+    url("../fonts/Gotham_OpenType_Light.otf") format("opentype");
 }
 
 body {
